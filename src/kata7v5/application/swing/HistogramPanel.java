@@ -26,9 +26,8 @@ public class HistogramPanel extends JPanel implements HistogramDisplay {
 
     @Override
     public void show(Histogram histogram) {
-        this.removeAll();
+        this.histogram=histogram;
         this.reload();
-        this.revalidate();
     }
 
     private JFreeChart createChart(DefaultCategoryDataset dataSet) {
