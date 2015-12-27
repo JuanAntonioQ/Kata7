@@ -1,4 +1,4 @@
-package kata6v11;
+package kata7v5.application.swing;
 
 public class Person {
 
